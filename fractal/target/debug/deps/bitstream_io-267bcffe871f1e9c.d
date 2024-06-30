@@ -1,0 +1,10 @@
+/Users/baptistechachura/projects/bidouille/rusttest/fractal/target/debug/deps/libbitstream_io-267bcffe871f1e9c.rmeta: /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/lib.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/huffman.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/read.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/write.rs
+
+/Users/baptistechachura/projects/bidouille/rusttest/fractal/target/debug/deps/libbitstream_io-267bcffe871f1e9c.rlib: /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/lib.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/huffman.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/read.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/write.rs
+
+/Users/baptistechachura/projects/bidouille/rusttest/fractal/target/debug/deps/bitstream_io-267bcffe871f1e9c.d: /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/lib.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/huffman.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/read.rs /Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/write.rs
+
+/Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/lib.rs:
+/Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/huffman.rs:
+/Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/read.rs:
+/Users/baptistechachura/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitstream-io-2.4.2/src/write.rs:
