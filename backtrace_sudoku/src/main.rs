@@ -86,6 +86,5 @@ fn solve(board: &mut Board, idx: usize) -> bool {
             board[r][c] = 0; // backtrack
         }
     }
-
     false
 }

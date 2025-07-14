@@ -1,0 +1,25 @@
+[package]
+name = "dioxus_foldable_menu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dioxus = { version = "0.7.0-alpha.2", default-features = false, features = [
+    "mobile",
+] }
+# dioxus = "0.7.0-alpha.2"
+tracing = "0.1.41"
+dioxus-time = { git = "https://github.com/ealmloff/dioxus-std", branch = "0.7", version = "0.7.0-alpha.2" }
+dioxus-primitives = { git = "https://github.com/DioxusLabs/components", branch = "main" }
+
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+dioxus-web = { version = "0.7.0-alpha.2" }
+
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+dioxus-mobile = { version = "0.7.0-alpha.2" }
+dioxus-desktop = { version = "0.7.0-alpha.2" }
+
+[patch.crates-io]
+dioxus-time = { git = "https://github.com/ealmloff/dioxus-std", branch = "0.7" }

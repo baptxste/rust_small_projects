@@ -1,0 +1,34 @@
+[application]
+name = "dioxus_foldable_menu"
+default_platform = "web"
+asset_dir = "assets"
+out_dir = "dist"
+
+[web.app]
+title = "Dioxus Foldable Menu App"
+
+[web.watcher]
+reload_html = true
+watch_path = ["src", "assets"]
+
+[web.resource]
+style = ["style.css"]
+script = []
+
+[web.resource.dev]
+style = ["style.css"]
+script = []
+
+[bundle]
+identifier = "com.example.dioxus-foldable-menu"
+publisher = "MonOrganisation"
+icon = ["assets/icon.png"]
+resources = ["assets/*"]
+
+# Configuration mobile pour iOS
+[mobile]
+app_name = "DioxusFoldableMenu"
+identifier = "com.example.dioxus-foldable-menu"
+
+[mobile.ios]
+team_id = "Personal Team" # Décommentez et ajoutez votre Team ID si nécessaire
