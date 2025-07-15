@@ -10,15 +10,15 @@ use dioxus_primitives::dropdown_menu::{
 #[component]
 pub fn Header() -> Element {
     rsx! {
+        head {
+            meta {
+                name:"viewport",
+                content:"width=device-width, initial-scale=1.0, viewport-fit=cover"
+            }
+        }
         header {
             class: "header",
 
-            h1 {
-                "🌟 Mon Application Dioxus"
-            }
-            p {
-                "Une application avec layout stable"
-            }
         }
     }
 }

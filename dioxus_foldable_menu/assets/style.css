@@ -28,7 +28,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: env(safe-area-inset-top);
+    /* padding-top: env(safe-area-inset-top); */
     padding-bottom: env(safe-area-inset-bottom);
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
@@ -41,16 +41,38 @@ body {
 }
 
 /* Header */
+
 .header {
-    height: calc(56px + env(safe-area-inset-top));
-    padding-top: env(safe-area-inset-top);
-    background: #343a40;
-    /* background: blue; */
-    color: white;
-    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: calc(env(safe-area-inset-top, 0px) + 0.5rem) 1rem 1rem;
+    color: transparent;
     text-align: center;
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+    z-index: 10;
+    background: transparent;
+    pointer-events: none; /* important si header cliquable : retirer */
 }
 
+/* Effet de flou progressif avec un masque */
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    /* le masque crée le flou fort en haut et 0 en bas */
+    mask-image: linear-gradient(to bottom, black, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+}
 .header h1 {
     margin: 0;
     font-size: 2rem;

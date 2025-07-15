@@ -7,7 +7,6 @@ use dioxus::prelude::*;
 mod components;
 mod pages;
 
-use dioxus_mobile::use_window;
 use pages::about::AboutPage;
 use pages::calendar::CalendarPage;
 use pages::contact::ContactPage;
@@ -48,12 +47,12 @@ fn App() -> Element {
     let mut current_page = use_signal(|| Page::Home);
 
     rsx! {
-        head {
-            meta {
-                name:"viewport",
-                content:"width=device-width, initial-scale=1.0, viewport-fit=cover"
-            }
-        }
+        // head {
+        //     meta {
+        //         name:"viewport",
+        //         content:"width=device-width, initial-scale=1.0, viewport-fit=cover"
+        //     }
+        // }
         div {
             class: "app-container",
             // HEADER - Partie stable
